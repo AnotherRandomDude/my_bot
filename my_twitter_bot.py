@@ -24,12 +24,8 @@ while (True):
 
         tbody = f'------------------------ CANADA ---------------------------- \n{currentMonth} {currentYear} \nEnjoy $5.00 Off Your First Order With Skip The Dishes! \nClick my referral Link: http://skipthedishes.com/r/PZ01zaXhrU \n#skipthedishes \n#skipthedishescoupon \n#helpauniversitystudentgetfood \nThanks'
         api.update_with_media("skip.jpg", tbody)
-        
-    time.sleep(interval)
+        time.sleep(interval)
     
-    if (datetime.now().hour < 7 and datetime.now().hour > 23):
-
-        tbody = f'------------------------ CANADA ---------------------------- \n{currentMonth} {currentYear} \nEnjoy $5.00 Off Your First Order With Skip The Dishes! \nClick my referral Link: http://skipthedishes.com/r/PZ01zaXhrU \n#skipthedishes \n#skipthedishescoupon \n#helpauniversitystudentgetfood \nThanks'
-        api.update_with_media("skip.jpg", tbody)
+    else
         
-    time.sleep(interval * 4)
+        time.sleep(interval * 4)
