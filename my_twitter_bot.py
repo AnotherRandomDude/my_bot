@@ -4,7 +4,7 @@ import time
 import os
 from os import environ
 
-interval = 60 * 60      #interval
+interval = 60 * 30      #interval
 consumer_key = environ['CONSUMER_KEY']
 consumer_secret_key = environ['CONSUMER_SECRET_KEY']
 access_token = environ['ACCESS_TOKEN']
