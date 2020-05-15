@@ -1,13 +1,13 @@
 import tweepy
 from datetime import datetime
 import time
-import os 
+import os import environ
 
 interval = 60 * 60      #interval
-consumer_key = os.environ.get('CONSUMER_KEY')
-consumer_secret_key = os.environ.get('CONSUMER_SECRET_KEY')
-access_token = os.environ.get('ACCESS_TOKEN')
-access_token_secret = os.environ.get('ACCESS_TOKEN_SECRET')
+consumer_key = environ['CONSUMER_KEY']
+consumer_secret_key = environ['CONSUMER_SECRET_KEY']
+access_token = environ['ACCESS_TOKEN']
+access_token_secret = environ['ACCESS_TOKEN_SECRET']
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret_key)
 auth.set_access_token(access_token, access_token_secret)
