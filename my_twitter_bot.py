@@ -1,7 +1,8 @@
 import tweepy
 from datetime import datetime
 import time
-import os import environ
+import os
+from os import environ
 
 interval = 60 * 60      #interval
 consumer_key = environ['CONSUMER_KEY']
