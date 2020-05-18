@@ -21,7 +21,7 @@ while (True):
 
     if (datetime.now().hour >= 7 and datetime.now().hour <= 23):
 
-        tbody = f'------------------------ CANADA ---------------------------- \n{currentMonth} {currentYear} \nEnjoy $5.00 Off Your First Order With Skip The Dishes! \nClick my referral Link: http://skipthedishes.com/r/PZ01zaXhrU \n#skipthedishes \n#skipthedishescoupon \n#helpauniversitystudentgetfood \nThanks'
+        tbody = f'------------------------ CANADA ---------------------------- \n{currentMonth} {currentYear} \nEnjoy $5.00 Off Your First Order With Skip The Dishes! \nClick my referral Link: http://skipthedishes.com/r/PZ01zaXhrU \n\n#skipthedishes \n#skipthedishescoupon \n#helpauniversitystudentgetfood \nThanks'
         api.update_with_media("skip.jpg", tbody)
         time.sleep(3200)
         
